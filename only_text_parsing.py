@@ -1,7 +1,7 @@
 import urllib.request
 
 # Grab HTML
-targetURL = 'http://www.wikipedia.com'
+targetURL = 'http://www.runescape.com'
 with urllib.request.urlopen(targetURL) as response:
     html = response.read()
 
